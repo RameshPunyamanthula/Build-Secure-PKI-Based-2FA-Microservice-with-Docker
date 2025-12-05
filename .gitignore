@@ -1,0 +1,19 @@
+# Do NOT commit these sensitive files
+encrypted_seed.txt
+data/seed.txt
+encrypted_signature.txt
+commit_hash.txt
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# IDE folders
+.vscode/
+.idea/
+
+# Docker volumes (if created locally)
+cron/last_code.txt
